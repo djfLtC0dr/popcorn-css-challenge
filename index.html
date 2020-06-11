@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Airlines!!</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>The DOM playground</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="popcorn.js"></script>
+</head>
+<body>
+  <div id="header">
+    Hello There!
+  </div>
+  <hr>
+  <div class="content">
+    Essentials:
+  </div>
 
-  </body>
+  <div id="essentials">
+    <ul class="essentials">
+      <li>milk</li>
+      <li class="selected">honey</li>
+      <li>water</li>
+      <li>wine</li>
+      <li>beer</li>
+    </ul>
+  </div>
+
+  <div>
+    <img src="./images/honey.jpeg" height="60" width="60" alt="beer">
+  </div>
+
+  <div id="ghosting">
+    Touch me and I'll disappear!
+  </div>
+
+  <div id="resize">
+    Touch me and I'll turn twice as wide!
+  </div>
+
+  <input type="submit" value="Reset" id="reset"></input>
+</body>
 </html>
